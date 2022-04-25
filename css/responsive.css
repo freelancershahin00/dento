@@ -1,0 +1,60 @@
+		/* for max-width 768px */
+@media screen and (max-width: 768px) {
+	
+#bottomNav nav {
+	text-align: center;
+	float: none;
+}
+#countdown .flex-container .countdown_inner {
+	padding: 50px 100px;
+}
+.footer_bottom .item:last-child {
+	display: table;
+	text-align: left;
+}
+	
+}
+		/* end max-width 768px */
+		
+
+		/* for max-width 425px */
+@media screen and (max-width: 425px) {
+	
+#bottomNav {
+	position: relative;
+}
+#bottomNav nav ul li {
+	display: block;
+}
+#about .grid-container {
+	display: table;
+}
+#work .grid-container {
+	display: table;
+}
+#work .flex-container .item1,		#work .flex-container .item2,		#countdown .flex-container .countdown_inner,		#service .item,		#founder .item,		#quotes .item,		footer .contact_box .box,		footer .footer_item,		.footer_bottom .item,		#office .item {
+	flex: none;
+}
+footer {
+	padding-bottom: 0px;
+}
+.footer_bottom .item:first-child, .footer_bottom .item:last-child {
+	text-align: center;
+}
+	
+}
+		/* end max-width 425px */
+		
+		
+		/* for max-width 320px */
+@media screen and (max-width: 320px) {
+	
+#hero .content {
+	top: -50px;
+}
+#about .grid-container .item1 img {
+	max-width: 120px;
+}
+	
+}
+		/* end max-width 320px */
