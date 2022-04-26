@@ -56,7 +56,7 @@ ul {
 }
 p {
 	color: #333;
-	text-align: center;
+	text-align: justify;
 }
 button {
 	border: none;
@@ -66,12 +66,11 @@ button {
 	letter-spacing: 1px;
 }
 	/* top logo style */
-.top_logo {
-	background: white;
+#top_logo {
 	width: 100%;
 	height: 50px;
 }
-.top_logo img {
+#top_logo img {
 	width: 150px;
 	padding: 10px;
 	display: block;
@@ -452,6 +451,20 @@ footer .footer_item button a {
 .footer_bottom {
 	background: #222;
 	padding: 10px 0px;
+}
+.footer_bottom .go_to_top {
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+.footer_bottom .go_to_top a {
+    color: aqua;
+    font-size: 25px;
+	padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 100%;
 }
 .footer_bottom .item {
 	width: 100%;
